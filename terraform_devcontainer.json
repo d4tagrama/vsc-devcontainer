@@ -1,0 +1,21 @@
+{
+    "name": "Terraform",
+    "image": "hashicorp/terraform",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "hashicorp.terraform"
+            ],
+            "settings": {
+                "terraform.languageServer": {
+                    "enabled": true,
+                    "args": []
+                }
+            }
+        }
+    },
+    "remoteEnv": {
+        "TF_LOG": "",
+        "TF_LOG_PATH": "'./terraform.log"
+    }
+}
